@@ -1,0 +1,2 @@
+<view wx:if="{{totalTime.day||totalTime.hour}}" bindtap="chooseTap" class="button-choose-time">{{totalTime.day}}天{{totalTime.hour}}小时</view>
+<view wx:else bindtap="chooseTap" class="button-choose-time">请选择时间</view>

@@ -1,0 +1,12 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/index/picker"
+	],
+	"plugins": {
+		"myPlugin": {
+			"version": "1.0.1",
+			"provider": "wxbdba0f18d2aa9aa1"
+		}
+	}
+}

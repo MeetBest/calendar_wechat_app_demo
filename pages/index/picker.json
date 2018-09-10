@@ -1,0 +1,8 @@
+{
+	"navigationBarBackgroundColor": "#051631",
+	"navigationBarTextStyle": "white",
+	"navigationBarTitleText": "Time Picker",
+	"usingComponents": {
+		"date-time-picker": "plugin://myPlugin/date-time-picker"
+	}
+}

@@ -1,0 +1,6 @@
+<date-time-picker binddoneevent="onDoneEvent" dates="{{dates}}" start-time=""  default-days="300" active-date-index="{{activeDateIndex}}" default-cover-start-hour-index='3' default-cover-end-hour-index='6' start-hour='6' end-hour='' use-swiper="{{false}}" />
+<!-- 
+
+
+
+ -->
