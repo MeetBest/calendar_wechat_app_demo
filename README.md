@@ -53,7 +53,7 @@ defaultValue: false
 
 ##snippets##
 
-####page.wxml####
+**page.wxml**
 <pre><code>
 `<date-time-picker
 	binddoneevent="onDoneEvent"
@@ -67,7 +67,7 @@ defaultValue: false
 	end-hour=''
 	use-swiper="{{false}}" />`
 </code></pre>
-####page.json####
+**page.json**
 <pre><code>
 {
 	"navigationBarBackgroundColor": "#051631",
@@ -78,7 +78,7 @@ defaultValue: false
 	}
 }
 </code></pre>
-####page.js####
+**page.js**
 <pre><code>
 var plugin = requirePlugin("myPlugin");
 let app = getApp();
@@ -102,7 +102,7 @@ Page({
 	}
 })
 </code></pre>
-####app.json####
+**app.json**
 <pre><code>
 {
 	"pages": [],
@@ -114,7 +114,7 @@ Page({
 	}
 }
 </code></pre>
-####app.js####
+**app.js**
 <pre><code>
 App({
 	onLaunch: function() {},
