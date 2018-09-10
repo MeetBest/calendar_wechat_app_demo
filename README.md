@@ -2,7 +2,7 @@
 
 <img width="300" align="center" src="picture.jpg"/>
 
-##paramters
+### paramters
 
 * **dates:优先级相对其他pro最高，主要用于再次打开恢复状态使用。**  
 type: Array  
@@ -51,7 +51,7 @@ defaultValue: 24
 defaultValue: false  
 
 
-##snippets##
+### snippets
 
 **page.wxml**
 <pre><code>
