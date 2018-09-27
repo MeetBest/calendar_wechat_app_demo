@@ -1,1 +1,26 @@
-<date-time-picker external-total-time-pannel="total-time-pannel" binddoneevent="onDoneEvent" dates="{{dates}}" start-time=""  default-days="20" active-date-index="{{activeDateIndex}}" default-cover-start-hour-index='3' default-cover-end-hour-index='6' start-hour='6' end-hour='' use-swiper="{{false}}" />
+<date-time-picker
+external-date-item-wrapper="date-item-wrapper"
+external-date-item-active="date-item-active"
+external-date-item-choosed="date-item-choosed"
+external-t1="t1"
+external-t2="t2"
+external-t3="t3"
+external-hour-item-active="hour-item-active"
+external-top-date-swiper="top-date-swiper"
+external-cover="external-cover"
+external-cover-before="external-cover-before"
+external-cover-before-before="external-cover-before-before"
+external-cover-after="external-cover-after"
+external-cover-after-after="external-cover-after-after"
+external-total-time-pannel="total-time-pannel"
+binddoneevent="onDoneEvent"
+dates="{{dates}}"
+start-time=""
+default-days="20"
+active-date-index="{{activeDateIndex}}"
+default-cover-start-hour-index='3'
+default-cover-end-hour-index='6'
+start-hour='0'
+end-hour='24'
+use-swiper="{{true}}"
+/>

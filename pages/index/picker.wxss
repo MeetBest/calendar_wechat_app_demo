@@ -1,26 +1,78 @@
-.total-time-pannel {
-
-	/*	background: #DDD !important;
-		color: blue !important;*/
+.date-item-wrapper {
+	border-color: blue !important;
+	border: 1px solid rgba(0, 255, 0, 0) !important;
 }
 
-.external-date-item-wrapper {
+.date-item-choosed {
+	border: 1px dashed rgba(0, 255, 0, .6) !important;
+	opacity: .6 !important;
 }
 
-.external-t1 {
+.date-item-active {
+	border: 1px solid rgba(0, 255, 0, .6) !important;
+	opacity: 1 !important;
 }
 
-.external-t2 {
+.t1 {
+	color: green !important;
 }
 
-.external-t3 {
+.t2 {
+	color: green !important;
 }
 
-.external-top-date-swiper-wrapper {
+.t3 {
+	color: green !important;
+}
+
+.top-date-swiper {
+	background-color: #EEE !important;
+	border-bottom: 1px solid #DDD;
 }
 
 .external-cover {
+	background-color: rgba(0, 255, 0, 0.1) !important;
 }
 
-.external-total-time-pannel {
+.external-cover-before {
+	border-top: 1px solid green !important;
+}
+
+.external-cover-before-before {
+	display: block;
+	z-index: 12;
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 40rpx;
+	border: 1px solid green;
+	background: #FFFFFF;
+	position: absolute;
+	left: 80rpx;
+	top: -20rpx;
+}
+
+.external-cover-after {
+	border-bottom: 1px solid green !important;
+}
+
+.external-cover-after-after {
+	display: block;
+	z-index: 12;
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 40rpx;
+	border: 1px solid green;
+	background: #FFFFFF;
+	position: absolute;
+	right: 80rpx;
+	bottom: -20rpx;
+}
+
+.total-time-pannel {
+	color: white !important;
+	background-color: green !important;
+}
+
+.hour-item-active {
+	color: green !important;
 }
