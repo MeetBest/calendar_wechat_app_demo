@@ -1,6 +1,1 @@
-<date-time-picker binddoneevent="onDoneEvent" dates="{{dates}}" start-time=""  default-days="300" active-date-index="{{activeDateIndex}}" default-cover-start-hour-index='3' default-cover-end-hour-index='6' start-hour='6' end-hour='' use-swiper="{{false}}" />
-<!-- 
-
-
-
- -->
+<date-time-picker external-total-time-pannel="total-time-pannel" binddoneevent="onDoneEvent" dates="{{dates}}" start-time=""  default-days="20" active-date-index="{{activeDateIndex}}" default-cover-start-hour-index='3' default-cover-end-hour-index='6' start-hour='6' end-hour='' use-swiper="{{false}}" />
