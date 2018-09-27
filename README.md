@@ -131,9 +131,7 @@ App({
 })
 ```
 
-## feedback
-
-### external class
+## external class
 
 * `<date-time-picker>` 针对组件设置对应颜色属性
 
@@ -250,6 +248,8 @@ use-swiper="{{false}}"
 	color: green !important;
 }
 ```
+
+## feedback
 
 * visit https://github.com/MeetBest/calendar_wechat_app_demo  
 * mail to <gm.dai@meetbest.com>  
